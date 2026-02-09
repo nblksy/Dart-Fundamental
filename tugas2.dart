@@ -17,8 +17,8 @@ void main() {
 
   // Keterangan kelulusan
   bool lulus =
-      rataRata >= 70 &&          // Rata-rata minimal 75
-      kehadiran >= 75 &&         // Kehadiran minimal 80%
+      rataRata >= 70 &&          // Rata-rata minimal 70
+      kehadiran >= 75 &&         // Kehadiran minimal 75%
       (uts >= 60 && uas >= 60);  // Nilai minimal setiap uts/uas
 
   // Output hasil
